@@ -1,7 +1,9 @@
 # dbgeo_gen
 
-Convert database query results with WKB geometries to GeoJSON or TopoJSON, regardless of geometry column name. Heavily inspired by [John J Czaplewski's](https://github.com/jczaplew) [dbgeo](https://github.com/jczaplew/dbgeo). Should work
- with your database of choice (I only tested postgres) .
+Convert database query results with WKB geometries to GeoJSON or TopoJSON, regardless of geometry column name. Also allows for multiple geometry columns in query result (Those will be held in a geometrycollection). 
+
+Heavily inspired by [John J Czaplewski's](https://github.com/jczaplew) [dbgeo](https://github.com/jczaplew/dbgeo). 
+Should work with your database of choice (I only tested postgres) .
 
 ###### Installation
 ````
