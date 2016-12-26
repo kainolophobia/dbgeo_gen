@@ -1,0 +1,7 @@
+
+module.exports = {
+  user: 'postgres',
+  host: 'localhost',
+  port: 5432,
+  "database": "dbgeo_gen"
+}
